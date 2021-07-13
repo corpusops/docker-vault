@@ -8,7 +8,7 @@ env:
   FORCE_ONLINE: "1"
   NBPARALLEL: "2"
   RELEASABLE_REPOS: "^corpusops/"
-  RELEASABLE_BRANCHES: "^(refs/heads/)?(master|2.0|workflows)$"
+  RELEASABLE_BRANCHES: "^(refs/heads/)?(master|main|2.0|workflows)$"
   COPS_URL: "https://github.com/corpusops/corpusops.bootstrap"
   COPS_ROOT: "${{github.workspace}}/local/corpusops.bootstrap"
   silent: "$COPS_ROOT/bin/cops_shell_common output_in_error silent_vv"
